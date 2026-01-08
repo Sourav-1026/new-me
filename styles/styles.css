@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    width: 160px;
+    padding: 21px 25px 20px 26px;
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-s{
+    width: 160px;
+    padding: 21px 25px 20px 26px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+header .banner-container{
+    width: 100%;
+    max-width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    
+    background: url(../images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 230px;
+}
+
+.banner-container .banner-writing{
+    text-align: right;
+    max-width: 494px;
+}
+
+.banner-writing h1{
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner-writing p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+    /* width: 494px; */
+}
+
+#failure{
+    width: 67%;
+    max-width: 1072px;
+    /* border: 1px solid red; */
+    padding-top: 130px;
+    margin: 0 auto;
+}
+
+#failure .failure-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+}
+
+.failure-img {
+    position: relative;
+    width: 569px;
+    height: 723px;          /* IMPORTANT */
+}
+
+/* Circle background */
+.circle-bg {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 520px;
+    height: 520px;          /* EXPLICIT height */
+    border-radius: 50%;
+
+    background-image: url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    z-index: 0;
+}
+
+/* Woman image */
+.failure-img img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+
+.failure-container .failure-content{
+    max-width: 416px;
+}
+
+.failure-content h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-content ul{
+    list-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#plans{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.plan-container .plan-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-container .plan-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plan-cards-info{
+    text-align: center;
+}
+
+.plan-cards .plan-cards-info img{
+    width: 93px;
+    margin-bottom: 20px;
+}
+
+.plan-cards-info h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+
+.plan-cards-info p{
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 130px;
+}
+
+.overlap-lines{
+    max-width: 459px;
+    /* padding: 59px  0 66px; */
+}
+
+.overlap-lines h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.bg-hand{
+    padding: 59px;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: contain, cover;
+    max-width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
